@@ -1,0 +1,163 @@
+* {
+  margin: 0px;
+  font-family: "inter";
+  color: aliceblue;
+}
+
+#logo {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#titulo-superior {
+  margin-left: 150px;
+  margin-top: 70px;
+}
+
+#texto-superior {
+  margin-left: 150px;
+  margin-top: 20px;
+  padding-bottom: 100px;
+}
+
+#menusuperior {
+  background-image: url(imagens/imgsuperior.svg);
+}
+
+#menuinformacional {
+  background-color: #eaece5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+.textos {
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.icone {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  padding: 25px;
+}
+
+#secaovideo {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+#titulo-video {
+  color: #247ba0;
+  margin: 70px 100px 0px 0px;
+}
+
+#texto-video {
+  color: black;
+  margin: 0px 100px 50px opx;
+}
+
+#video {
+  margin: 50px 0px 50px 100px;
+}
+
+#carrossel {
+  background-color: #247ba0;
+  padding: 50px;
+}
+
+#titulo-carrossel {
+  text-align: center;
+}
+
+#div-cards {
+  margin-top: 50px;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+#Samantha {
+  margin-right: 0px;
+  margin-left: 25px;
+}
+
+#Leonardo {
+  margin-left: 145px;
+  margin-right: 5px;
+}
+
+#seta-esquerda {
+  display: none;
+  margin-left: 30px;
+}
+
+#Bruna {
+  display: none;
+  margin-left: 0px;
+  margin-right: 80px;
+}
+
+#seta-direita {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.seta {
+  cursor: pointer;
+}
+
+.seta:hover {
+  transform: translateY(-7px);
+  transition-duration: 300ms;
+}
+
+#titulo-formulario {
+  color: black;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 35px;
+}
+
+input {
+  margin-bottom: 30px;
+  margin-left: 40%;
+  color: black;
+  width: 300px;
+  height: 40px;
+  background-color: #eaece5;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+#botao {
+  margin-left: 42%;
+  background-color: #247ba0;
+  width: 250px;
+  height: 39px;
+  margin-bottom: 45px;
+  border: 0px;
+  border-radius: 5px;
+  color: #eaece5;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#botao:hover {
+  background-color: #00a1e6;
+  color: white;
+  transform: translateY(-5px);
+  transition-duration: 300ms;
+  box-shadow: 0px 10px 15px 0px #033044a8;
+}
+
+#rodape {
+  background-color: black;
+  color: #eaece5;
+  text-align: center;
+  padding: 5px;
+}
